@@ -133,9 +133,12 @@ public class Main {
 			HttpPost httpost = new HttpPost(url);
 			List <NameValuePair> nvps = new ArrayList<NameValuePair>();
 			
+			string qq="";		//fill your qq number
+			string pwd="";		//fill your qq password
+
 			nvps.add(new BasicNameValuePair("sid", sid));
-			nvps.add(new BasicNameValuePair("qq", "402953842"));
-			nvps.add(new BasicNameValuePair("pwd", "Alicalcg"));
+			nvps.add(new BasicNameValuePair("qq", qq));
+			nvps.add(new BasicNameValuePair("pwd", pwd));
 			nvps.add(new BasicNameValuePair("sidtype", "1"));
 			nvps.add(new BasicNameValuePair("hiddenPwd", "true"));
 			nvps.add(new BasicNameValuePair("aid", "nLoginqz"));
